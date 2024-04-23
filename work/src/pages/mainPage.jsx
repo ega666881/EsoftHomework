@@ -10,6 +10,7 @@ function MainPage() {
         <Box sx={{display: "flex", flexDirection: "row", width: "50%"}}>
             <Avatar image={MediaManager("avatar")}/>
             <Typography variant="h4" sx={{display: 'inline-block'}}>Лукьянов Егор Вячеславович</Typography>
+            <Typography variant="h4" sx={{display: 'inline-block'}}>Сеньер дизайнер</Typography>
         </Box>
         <Typography variant="h1" sx={{textAlign: "center"}}>Скилы</Typography>
         <Box sx={{display: "flex", flexDirection: "row", gap: 5, marginTop: 3, marginBottom: 4}}>

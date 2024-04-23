@@ -8,7 +8,7 @@ import Typography from '@mui/material/Typography';
 
 function SkillCard({image, title, description}) {
     return (
-        <Card sx={{ width: 345, borderRadius: "11px" }}>
+        <Card sx={{ width: 345, borderRadius: "11px", padding: 3}}>
           <CardMedia
             sx={{ height: 300 }}
             image={image}
